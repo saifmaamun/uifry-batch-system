@@ -31,7 +31,7 @@ const FeatureSection = () => {
               budgeting intervals
             </h2>
             <h2 className="text-lg font-medium text-neutral-500 capitalize ">
-              Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet{" "}
+              Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
               <br />
               faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
             </h2>
