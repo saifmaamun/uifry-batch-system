@@ -4,6 +4,7 @@ import FeatureSection from "@/components/ui/FeatureSection";
 import Advantages from "@/components/ui/Advantages";
 import Testimonial from "@/components/ui/Testimonial";
 import Faq from "@/components/ui/Faq";
+import Download from "@/components/ui/Download";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Advantages />
       <Testimonial />
       <Faq />
+      <Download />
     </>
   );
 };

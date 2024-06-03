@@ -7,7 +7,7 @@ const Faq = () => {
           Frequently asked <br /> questions
         </h2>
       </div>
-      <div className="md:grid md:grid-cols-2 my-10 flex justify-center md:space-x-2 space-y-2 items-center align-middle">
+      <div className="grid md:grid-cols-2  my-10  justify-center md:space-x-2 space-y-2 items-center align-middle">
         <div className="mx-auto faq space-y-4 p-7">
           <h2 className="text-3xl mb-3 font-semibold  capitalize">
             the best financial accounting app ever!
