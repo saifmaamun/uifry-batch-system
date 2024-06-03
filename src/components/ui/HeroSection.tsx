@@ -22,12 +22,12 @@ const HeroSection = () => {
               faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
             </h2>
           </>
-          <div className="space-x-10 flex justify-start align-middle items-center">
+          <div className="space-x-10 md:flex justify-start align-middle items-center">
             <button className="bg-black text-white text-lg px-12 py-4 rounded">
               Get Started
               <ArrowRightOutlined style={{ fontSize: "18px" }} />
             </button>
-            <div className="space-x-3">
+            <div className="space-x-3  mt-10 md:mt-0">
               <PlayCircleOutlined style={{ fontSize: "18px" }} />
               <button className="bg-transparent border-0 text-lg">
                 <h2>Watch Video</h2>
@@ -39,7 +39,12 @@ const HeroSection = () => {
           </div>
         </div>
         <div>
-          <Image className="my-2" width={1200} src={hero} alt="hero.png" />
+          <Image
+            className="my-2 hidden lg:block"
+            width={1200}
+            src={hero}
+            alt="hero.png"
+          />
         </div>
       </div>
     </div>
