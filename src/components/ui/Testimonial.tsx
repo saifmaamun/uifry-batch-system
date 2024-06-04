@@ -4,10 +4,10 @@ import user1 from "../../assets/user1.png";
 import { TTestimonials } from "@/interfaces/TTestimonials";
 
 const Testimonial = async () => {
-  const res = await fetch(`${process.env.SERVER_URL}/testimonials`, {
-    cache: "force-cache",
-  });
-  const testimonials = await res.json();
+  // const res = await fetch(`${process.env.SERVER_URL}/testimonials`, {
+  //   cache: "force-cache",
+  // });
+  // const testimonials = await res.json();
   // console.log(testimonials);
 
   return (
@@ -24,7 +24,7 @@ const Testimonial = async () => {
         <div className="hidden md:block">
           <Image src={users} alt="users" />{" "}
         </div>
-        {testimonials.slice(0, 1).map((testimonial: TTestimonials) => (
+        {/* {testimonials.slice(0, 1).map((testimonial: TTestimonials) => (
           <div key={testimonial._id} className="mx-auto space-y-4">
             <h2 className="text-3xl mb-3 font-semibold  capitalize">
               {testimonial.title}
@@ -45,8 +45,8 @@ const Testimonial = async () => {
               {testimonial.name}
             </h2>
           </div>
-        ))}
-        {/* <div className="mx-auto space-y-2">
+        ))} */}
+        <div className="mx-auto space-y-2">
           <h2 className="text-3xl mb-3 font-semibold  capitalize">
             the best financial accounting app ever!
           </h2>
@@ -63,7 +63,7 @@ const Testimonial = async () => {
             <Image width={80} height={80} src={user1} alt="" />
           </div>
           <h2 className="text-lg mb-3 font-bold  capitalize">Nick Jones</h2>
-        </div> */}
+        </div>
       </div>
     </div>
   );

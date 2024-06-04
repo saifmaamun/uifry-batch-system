@@ -1,13 +1,12 @@
 import Image from "next/image";
 import featureImage from "../../assets/features.png";
 import { CodepenOutlined } from "@ant-design/icons";
-import { TFeatures } from "@/interfaces/TFeatures";
 
 const FeatureSection = async () => {
-  const res = await fetch(`${process.env.SERVER_URL}/features`, {
-    cache: "force-cache",
-  });
-  const features = await res.json();
+  // const res = await fetch(`${process.env.SERVER_URL}/features`, {
+  //   cache: "force-cache",
+  // });
+  // const features = await res.json();
   // console.log(features);
 
   return (
@@ -24,7 +23,7 @@ const FeatureSection = async () => {
             <h2 className="text-5xl font-bold capitalize">uifry premium</h2>
           </div>
 
-          {features.map((feature: TFeatures) => (
+          {/* {features.map((feature: TFeatures) => (
             <div key={feature._id}>
               <h2 className="text-lg mb-3 font-semibold  capitalize">
                 <CodepenOutlined
@@ -37,7 +36,44 @@ const FeatureSection = async () => {
                 {feature.description}
               </h2>
             </div>
-          ))}
+          ))} */}
+          <div>
+            <h2 className="text-lg mb-3 font-semibold  capitalize">
+              <CodepenOutlined
+                className="mr-2"
+                style={{ color: "rgba(255, 85, 85, 1)" }}
+              />
+              Budget Tracking
+            </h2>
+            <h2 className="text-lg font-medium text-neutral-500 capitalize ">
+              Easily monitor and categorize your spending to stay on budget.
+            </h2>
+          </div>
+          <div>
+            <h2 className="text-lg mb-3 font-semibold  capitalize">
+              <CodepenOutlined
+                className="mr-2"
+                style={{ color: "rgba(255, 85, 85, 1)" }}
+              />
+              Savings Goals
+            </h2>
+            <h2 className="text-lg font-medium text-neutral-500 capitalize ">
+              Set and track your savings goals to achieve financial milestones
+              faster.
+            </h2>
+          </div>
+          <div>
+            <h2 className="text-lg mb-3 font-semibold  capitalize">
+              <CodepenOutlined
+                className="mr-2"
+                style={{ color: "rgba(255, 85, 85, 1)" }}
+              />
+              Investment Insights
+            </h2>
+            <h2 className="text-lg font-medium text-neutral-500 capitalize ">
+              Get personalized investment advice to grow your wealth.
+            </h2>
+          </div>
         </div>
       </div>
     </div>
