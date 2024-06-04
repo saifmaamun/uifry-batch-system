@@ -4,7 +4,7 @@ import { AppleFilled, AppleOutlined } from "@ant-design/icons";
 
 const Download = () => {
   return (
-    <div className="container mx-auto my-40 bg-black text-white rounded-lg px-6 py-10">
+    <div className="container mx-auto my-40 bg-black text-white rounded-lg px-4 py-10">
       <div className="md:flex space-x-2 space-y-2 justify-center items-center align-middle">
         <div className="space-y-4">
           <h2 className="text-5xl font-bold capitalize">

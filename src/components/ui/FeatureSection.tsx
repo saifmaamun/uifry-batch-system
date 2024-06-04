@@ -9,7 +9,7 @@ import {
 
 const FeatureSection = () => {
   return (
-    <div className="container mx-auto mb-16">
+    <div className="container mx-auto mb-16 px-4">
       <div className="md:flex justify-around space-x-2 items-center align-middle">
         <div className="">
           <Image src={features} alt="features" />

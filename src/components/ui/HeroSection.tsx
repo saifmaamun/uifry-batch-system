@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div className="container mx-auto mb-16">
+    <div className="container mx-auto mb-16 px-2">
       <div className="flex justify-center items-center align-middle">
         <div className="space-y-6">
           <>

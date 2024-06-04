@@ -4,7 +4,7 @@ import user1 from "../../assets/user1.png";
 
 const Testimonial = () => {
   return (
-    <div className="container mx-auto mb-16">
+    <div className="container mx-auto mb-16 px-4">
       <div className="text-center">
         <h2 className="text-lg font-medium text-red-600 uppercase">
           testimonial

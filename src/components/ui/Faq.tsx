@@ -1,6 +1,6 @@
 const Faq = () => {
   return (
-    <div className="container mx-auto mb-16">
+    <div className="container mx-auto mb-16 px-4">
       <div className="text-start">
         <h2 className="text-lg font-medium text-red-600 uppercase">faq</h2>
         <h2 className="text-5xl font-bold capitalize">

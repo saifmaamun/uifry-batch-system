@@ -5,7 +5,7 @@ import { BellFilled, ToolFilled } from "@ant-design/icons";
 
 const Advantages = () => {
   return (
-    <div className="container mx-auto mb-16">
+    <div className="container mx-auto mb-16 px-4">
       <div className="grid md:grid-cols-2 md:space-x-2 space-y-2 items-center align-middle">
         <div className="space-y-8">
           <div>
