@@ -15,25 +15,41 @@
   },
   "features": [
     {
-      "title": "Feature One",
-      "description": "Description of feature one.",
-      "icon": "https://via.placeholder.com/100"
+      "title": "Budget Tracking",
+      "description": "Easily monitor and categorize your spending to stay on budget."
     },
     {
-      "title": "Feature Two",
-      "description": "Description of feature two.",
-      "icon": "https://via.placeholder.com/100"
+      "title": "Savings Goals",
+      "description": "Set and track your savings goals to achieve financial milestones faster."
+    },
+    {
+      "title": "Investment Insights",
+      "description": "Get personalized investment advice to grow your wealth."
+    },
+    {
+      "title": "Bill Reminders",
+      "description": "Never miss a bill payment with timely reminders."
     }
   ],
   "testimonials": [
     {
-      "name": "User One",
-      "feedback": "This app is fantastic! It has changed my life.",
+      "name": "Alice Johnson",
+      "feedback": "This app has helped me save more effectively and manage my expenses with ease.",
       "avatar": "https://via.placeholder.com/50"
     },
     {
-      "name": "User Two",
-      "feedback": "I can't imagine my daily routine without this app.",
+      "name": "Bob Smith",
+      "feedback": "I love the investment insights feature! It's like having a personal financial advisor.",
+      "avatar": "https://via.placeholder.com/50"
+    },
+    {
+      "name": "Carol White",
+      "feedback": "The bill reminders ensure I never miss a payment. Highly recommend!",
+      "avatar": "https://via.placeholder.com/50"
+    },
+    {
+      "name": "Dave Brown",
+      "feedback": "Budget tracking has never been easier. This app is a game changer.",
       "avatar": "https://via.placeholder.com/50"
     }
   ],
