@@ -99,7 +99,7 @@ const Footer = () => {
           </div>
         </div>
         {/* 5th column */}
-        <div className="col-span-2 space-y-4 text-start">
+        <div className="col-span-4 space-y-4 text-start">
           <div>
             <h2 className=" font-bold text-3xl capitalize">Newsletter</h2>
           </div>
@@ -108,7 +108,7 @@ const Footer = () => {
               Stay up to date
             </Link>
           </div>
-          <div className="flex ">
+          <div className="">
             <input
               className="p-2"
               type="email"
@@ -123,6 +123,9 @@ const Footer = () => {
         </div>
       </div>
       <Divider className="bg-neutral-700" />
+      <h2 className="text-base font-medium text-center capitalize my-10">
+        Copyright 2022 uifry.com all rights reserved
+      </h2>
     </div>
   );
 };
